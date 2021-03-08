@@ -1,17 +1,32 @@
-<!---
-
-### Create a web page with the following characteristics:
-
-1. Heading element(h1) should be at the top of the page.
-2. After the heading, there should be a paragraph.
-3. After the paragraph add an image having all the corner rounded.
-4. Below the image, there should be a circle with red background.
-5. At the bottom of the page, there must be a footer containing few links.
-6. The H1 has 1px red solid borders, background color #D18C1D, and 10px of space between the content and the border (padding)
-7. The paragraph is contained in 600px by 400px boxes with 2px black dotted borders and background color #D1D631
-8. Links have a 3px blue dashed border on the bottom only and background color #A1A1A1
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper.
-
---->
+<!DOCTYPE html>
+<html lang="en">
+    <meta>
+    <head>
+        <title>Box-model Assginment-1</title>
+        <link rel="stylesheet" href="assest/stylesheet/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Box-model Assgiment-1</h1>
+        </header>
+        <div class="text">
+            <p>Before HTML 4 and CSS, very few HTML elements supported both border and padding, so the definition of the width and height of an element was not very contentious.</p>
+            <p>However, it varied depending on the element.</p>
+            <p>The HTML width attribute of a table defined the width of the table including its border.</p>
+            <p>On the other hand, the HTML width attribute of an image defined the width of the image itself (inside any border).</p>
+            <p>The only element to support padding in those early days was the table cell. Width for the cell was defined as "the suggested width for a cell content in pixels excluding the cell padding.</p>
+            <p>In 1996, CSS[8] introduced margin, border and padding for many more elements. </p>
+            <p>It adopted a definition width in relation to content, border, margin and padding similar to that for a table cell.[9] This has since become known as the W3C box model.</p>
+        </div>
+        <div>
+            <img src="assest/image/ktm.jpg" alt="ktm bike">
+        </div>
+        <div class="circle"></div>
+        <footer class="contact">
+            <a href="https://twitter.com/suraj42821358">Twitter</a>
+            <a href="https://www.instagram.com/suraj_mane1100/">Instagram</a>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.google.com/">Google</a>
+        </footer>
+    </body>
+</html>
